@@ -19,8 +19,32 @@ The React Native UI collects text input from the user and prepares it for model 
 
 🛠️ Tech Stack
 
-React Native • JavaScript • TensorFlow Lite • Machine Learning • Text Classification • On-Device AI
+React Native • JavaScript • Expo • TensorFlow Lite • Machine Learning • Text Classification • On-Device AI
+
+▶️ Run the App
+
+1. Install dependencies
+
+npm install
+
+2. Start the Expo development server
+
+npx expo start
+
+3. Run on Android
+
+npx expo start --android
+
+4. Run on iOS
+
+npx expo start --ios
+
+5. Run on Web
+
+npx expo start --web
+
+Note: If the TFLite integration uses native modules, you may need an Expo development build rather than Expo Go.
 
 🎯 Project Purpose
 
-This project demonstrates how TensorFlow Lite machine learning models can be integrated into React Native applications for offline text classification. It provides practical experience with mobile ML inference, text preprocessing, model integration, and real-time AI predictions without relying on a backend.
+This project demonstrates how TensorFlow Lite machine learning models can be integrated into React Native applications for offline text classification. It provides practical experience with mobile ML inference, text preprocessing, model integration, Expo development, and real-time AI predictions without relying on a backend.
